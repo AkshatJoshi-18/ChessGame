@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+#chessBoard {
+    display: grid;
+    grid-template-columns: repeat(8, 85px);
+    grid-template-rows: repeat(8, 85px);
+    width: 680px;
+    height: 680px;
+    border: 2px solid black;
+}
+.whiteBox {
+    background-color: white;
+    width: 85px;
+    height: 85px;
+}
+.blackBox {
+    background-color: #2f2342 ;
+    width: 85px;
+    height: 85px;
+}
